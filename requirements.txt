@@ -1,0 +1,13 @@
+streamlit>=1.36
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+lime
+matplotlib
+seaborn
+plotly
+joblib
+openpyxl
+requests
