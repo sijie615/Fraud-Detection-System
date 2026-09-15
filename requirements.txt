@@ -11,3 +11,4 @@ plotly
 joblib
 openpyxl
 requests
+groq
