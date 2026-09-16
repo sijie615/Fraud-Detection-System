@@ -128,7 +128,7 @@ def prepare_model_input(df_raw, preprocessor):
     return X, df_eng
 
 
-def predict_with_threshold(model, X, threshold=0.9626):
+def predict_with_threshold(model, X, threshold=0.9388):
     """Score transactions and apply the tuned decision threshold (Chapter 5.4)."""
     y_prob = model.predict_proba(X)[:, 1]
     y_pred = (y_prob >= threshold).astype(int)
