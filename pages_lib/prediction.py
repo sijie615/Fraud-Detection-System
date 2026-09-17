@@ -25,7 +25,7 @@ if "uploaded_df" not in st.session_state:
     st.warning("No data uploaded yet. Go to **Upload Data** first.")
     st.stop()
 
-THRESHOLD = 0.9388
+THRESHOLD = 0.9626
 
 # Keep a clean copy of the raw upload
 df_raw = st.session_state.get("raw_uploaded_df", st.session_state["uploaded_df"]).copy()
