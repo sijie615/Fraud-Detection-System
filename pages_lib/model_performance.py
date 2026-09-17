@@ -61,7 +61,7 @@ if not results.empty:
         has_live_labels = True
     elif "is_fraud" in results.columns and "fraud_probability" in results.columns:
         y_true_full = results["is_fraud"].astype(int)
-        y_pred_full = (results["fraud_probability"] >= 0.9388).astype(int)
+        y_pred_full = (results["fraud_probability"] >= 0.9626).astype(int)
         has_live_labels = True
 
     if has_live_labels:
